@@ -69,7 +69,7 @@ public class MyAppIoTListener extends BaseAppIoTListener {
 		default:
 			String message = String.format("Operation not supported. %s", operation);
 			logger.log(Level.WARNING, message);
-			responseCode = new ResponseCode(message, ResponseCode.BAD_OPTION);
+			responseCode = new ResponseCode(ResponseCode.BAD_OPTION, message);
 		}
 
 		DeviceRegistration deviceRegistration = getGateway().getDeviceRegistry().getRegistrationByEndpoint(endpoint);

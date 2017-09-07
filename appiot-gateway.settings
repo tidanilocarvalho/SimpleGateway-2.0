@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "GatewaySDK",
+    "Settings": [
+      {
+        "Key": "ReportInterval",
+        "Value": 1000,
+        "DataType": "Integer"
+      },
+      {
+        "Key": "EnableQueue",
+        "Value": true,
+        "DataType": "Boolean"
+      },
+      {
+        "Key": "QueueSize",
+        "Value": 1000,
+        "DataType": "Integer"
+      },
+      {
+        "Key": "LogLevel",
+        "Value": "INFO",
+        "DataType": "String"
+      }
+    ]
+  }
+]
